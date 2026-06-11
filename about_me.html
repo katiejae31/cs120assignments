@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About Me</title>
+    </head>
+    <body>
+        <h1>Katie Flanagan</h1>
+        <h2>Greece, 2025</h2>
+        In September 2025, I took a two week trip to Greece with two of my best friends.
+        We flew to the island of Crete, and explored the town of Chania and the pink sand beach, Elafonissi.
+        Then, we took the infamous Greek ferries to Santorini and Paros, before finishing our trip in Athens.
+        Greece had been a bucket list country of mine for a while, and it was the 27th country I've traveled to!
+        <h2> Favorite Pet Names</h2>
+        <!--Create unordered list of bullets-->
+        <ul>
+            <li>Fenway for a golden retriever</li>
+            <li>Myrtle for a turtle</li>
+            <li>Molly Moo for a cow</li>
+        </ul>
+        <h2>My Favorite Restaurant</h2>
+        It's not a restaurant, but one of my favorite places to get lunch in downtown Boston is Paisani, a food truck that 
+        serves up the best chicken cutlet sandwiches in the entire state of Massachusetts. The Caprese is my favorite, and features
+        a honey whipped ricotta that's to die for. Every time the truck was parked in Dewey Square (right outside my office), it was worth 
+        the sometimes 20-minute wait in line! <br />
+        <!--Add hyperlink to website-->
+        Check out their <a href="https://paisanifoodtruck.com/" target="_blank">website!</a>
+
+        <h2>My Favorite Food</h2>
+        Every Christmas, I make cinnamon rolls from scratch. I make the dough, leave for a family dinner while it rises, then come home
+        to add the cinnamon sugar and butter, roll them up, and cut the different rolls and finally finish around midnight. Then in the morning,
+        I wake up and bake the rolls and whisk together a cream cheese frosting. Then, I serve them straigth out of the oven to my family! <br />
+        Here's a picture of the cinnamon rolls I made last Christmas. <br />
+        <!--Add image of cinnamon rolls-->
+        <img src="cinnamon_rolls.jpg" alt="Cinnamon rolls" height=200/>
+        
+        <h2>My Current Favorite Books</h2>
+        <!--Create table with a border-->
+        <table style="border:2px solid black">
+            <!--Create first row with titles of columns-->
+            <tr>
+                <th style="border:1px solid black; width:300px">Title</th>
+                <th style="border:1px solid black">Author</th>
+                <th style="border:1px solid black">Cover</th>
+                <th style="border:1px solid black">Summary</th>
+            </tr>
+            <!--Add four books with image, center align images of covers-->
+            <tr>
+                <td style="border:1px solid black">Everyone in My Family Has Killed Someone</td>
+                <td style="border:1px solid black">Benjamin Stevenson</td>
+                <td style="border:1px solid black; text-align: center; vertical-align: middle;"><img src="everyone_family.jpg" alt="Cover of Everyone in My Family Has Killed Someone" width="75%"/></td>
+                <td style="border:1px solid black">In this twisty whodunit... everyone's done it! It's a dark comedy centered on a family reunion at a ski resort,
+                    where, you guessed it, everyone in the family has killed someone.</td>
+            </tr>
+                        <tr>
+                <td style="border:1px solid black">A Shadow in the Ember</td>
+                <td style="border:1px solid black">Jennifer L. Armentrout</td>
+                <td style="border:1px solid black; text-align: center; vertical-align: middle;"><img src="shadow_ember.webp" alt="Cover of A Shadow in the Ember" width="25%"/></td>
+                <td style="border:1px solid black">A fantasy romance loosely based on the tale of Hades and Persephone, A Shadow in the Ember
+                    tells the tale of Sera, a forgotten princess of a dying land who must marry - and then kill - the god of Death to save her people.</td>
+            </tr>
+                        <tr>
+                <td style="border:1px solid black">The Art of Racing in the Rain</td>
+                <td style="border:1px solid black">Garth Stein</td>
+                <td style="border:1px solid black; text-align: center; vertical-align: middle;"><img src="art_racing.jpg" alt="Cover of The Art of Racing in the Rain" width="25%"/></td>
+                <td style="border:1px solid black">Narrated by Enzo, this book tells the story of family, love, and loss through
+                    the eyes of the loyal dog of racecar driver Denny. Warning: only read this book if you feel like crying.</td>
+            </tr>
+                        <tr>
+                <td style="border:1px solid black">Love, Theoretically</td>
+                <td style="border:1px solid black">Ali Hazelwood</td>
+                <td style="border:1px solid black; text-align: center; vertical-align: middle;"><img src="love_theoretically.webp" alt="Love, Theoretically" width="25%"/></td>
+                <td style="border:1px solid black">The worlds of romance and physics combine in the third book from Ali Hazelwood. With rivals-to-lovers tension,
+                    the classic comedy you can expect from Ali Hazelwood, and way more information about the differences between theoretical and experimental physics
+                    than you'll have ever expected to know, Love Theoretically is one of my favorite books.</td>
+            </tr>
+        </table>
+        <!--Create form with submit button-->
+        <h2>Sign the Guest Book!</h2>
+        <form action="#" method="get">
+            <label for="firstname">First name:</label><br />
+            <input type="text" id="firstname" name="firstname"><br />
+            <label for="lastname">Last name:</label><br />
+            <input type="text" id="lastname" name="lastname"><br />
+            <label for="city">City:</label><br />
+            <input type="text" id="city" name="city"><br />
+            <label for="state">State:</label>
+            <select id="state" name="State">
+                <option value="select">Select your state</option>
+                <option value="CT">Connecticut</option>
+                <option value="ME">Maine</option>
+                <option value="MA">Massachusetts</option>
+                <option value="NH">New Hampshire</option>
+                <option value="VT">Vermont</option>
+            </select><br /><br />
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
