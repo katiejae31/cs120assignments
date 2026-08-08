@@ -1,0 +1,19 @@
+{
+  "name": "webapp2",
+  "version": "1.0.0",
+  "description": "node app ",
+  "main": "webapp2.js",
+  "scripts": {
+  "start": "node webapp2.js"
+},
+  "repository": {
+  "type": "git",
+  "url": ""
+},
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+  "url": ""
+},
+  "homepage": ""
+}
