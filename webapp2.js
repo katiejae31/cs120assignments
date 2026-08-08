@@ -69,7 +69,7 @@ http.createServer(async function (req, res) {
         res.end();
     }
 
-    }).listen(8080);
+    }).listen(process.env.PORT || 8080);
 }
 
 // Connection code taken from MongoDB after shorter method shown in class did not work
