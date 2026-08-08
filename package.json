@@ -6,6 +6,9 @@
   "scripts": {
   "start": "node webapp2.js"
 },
+"dependencies": {
+  "mongodb": "^6.0.0"
+},
   "repository": {
   "type": "git",
   "url": ""
